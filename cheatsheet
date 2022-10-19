@@ -1,1 +1,11 @@
 https://www.educative.io/blog/bash-shell-command-cheat-sheet
+
+When using a ES6 remove the function keyword, and on the other side of the parameters use a fat arrow =>
+e.g. 
+router.get('/', (req, res, next) => {
+  res.render('index', { title: "Paul's Website - Home" });
+});
+
+controllers will actually store the business logic!
+
+a change!
