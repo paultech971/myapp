@@ -10,12 +10,12 @@ router.get('/', (req, res, next) => {
 
 /* GET reviews new /posts/:id/reviews/new */
 router.get('/new', (req, res, next) => {
-  res.send('NEW /reviews/new');
+  res.send('NEW /posts/:id/reviews/new');
 });
 
 /* POST reviews create /posts/:id/reviews */
 router.post('/', (req, res, next) => {
-  res.send('CREATE /reviews');
+  res.send('CREATE /posts/:id/reviews');
 });
 
 /* GET reviews show /posts/:id/reviews/:reviews_id */
