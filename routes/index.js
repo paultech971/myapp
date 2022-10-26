@@ -3,7 +3,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/', (req, res, next) => {
-  res.render('index', { title: "Paul's Website - Home" });
+  res.render('index', { title: "Paul's Website - Home"});
 });
 
 /* GET /register */
@@ -48,12 +48,12 @@ router.put('/forgot-pw', (req, res, next) => {
   res.send('PUT /forgot-pw');
 });
 
-/* GET /reset-pq */
+/* GET /reset-pq/:token */
 router.get('/reset/:token', (req, res, next) => {
   res.send('GET /reset/:token');
 });
 
-/* PUT /reset-pw */
+/* PUT /reset-pw/:token */
 router.put('/reset/:token', (req, res, next) => {
   res.send('PUT /reset/:token');
 });

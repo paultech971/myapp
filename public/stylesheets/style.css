@@ -1,8 +1,161 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-
 a {
   color: #00B7FF;
 }
+
+    body {background-color: #F2EEED;
+    font-family: 'Advent Pro';
+    font-size: 22px;    
+    }
+
+    a:link {
+      color: blue;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: green;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    a:active {
+      color: red;
+      background-color: transparent;
+      text-decoration: none;
+    }
+
+    button{
+    font-size: 13px; 
+    background-color:#0E3541;
+    cursor: pointer; text-align:
+    center;
+    min-width: 140px;
+    color: #fff; 
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    border-radius:6px;
+    }
+
+    h1   {border: none;
+      -webkit-appearance: none;
+      -ms-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      text-align: center;
+      background: #04cff2;
+      padding: 12px;
+      border-radius: 3px;
+      width:"";
+      outline: none;
+      font-size: 20px;}
+
+    div1 {
+    display: flex;
+    justify-content: center;
+    }
+
+    p {color: #121110;
+    padding: 10px;
+    display: flex;
+    Justify-content: center;
+          }
+
+    p1 {
+    box-sizing: border-box; 
+    margin: 0px;
+    padding: 0px;
+    color: rgb(17, 17, 17);
+    letter-spacing: 0.5px;
+    background-color: rgb(14, 53, 65);
+    text-align: center;}
+
+    table, th {
+      border: 2px solid black;
+      Border-collapse: collapse;
+      Padding: 5px;
+      Text-align: middle;
+    }
+
+    table, td {
+      border: 2px solid black;
+      Border-collapse: collapse;
+      Padding: 5px;
+      Text-align: right;
+    }
+    
+    #t01 {
+      width: 30%;
+      background-color: #f1f1c1;
+    }
+
+    #Paulsheader {
+      background-color: lightblue;
+      color: black;
+      padding: 40px;
+    text-align:center;
+      }
+
+    #img1 {
+    Border-radius: 15px;
+    }
+
+    .Books {
+    background-color: tomato;
+      color: #121110;
+      border: 2px solid black;
+      margin: 20px;
+      padding: 20px;
+    }
+
+    .columndiv {
+      Display: flex;
+    }
+
+    .columnsplit {
+      flex: 50%;
+      padding: 10px;
+      text-align: center;
+      }
+
+    .divFooter {display: flex;
+    justify-content:center;
+    }
+
+    div.sticky {
+    position:sticky;
+    top: 0;
+    width:100%;
+    background-color:#19A0B9;
+    text-align:center;
+    
+    }
+
+
+    div.footnote {
+    font-family: "Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif";
+    position:sticky;
+    bottom: 0;
+    background-color: #0e3541;
+    color: #ffffff;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+    font-style:italic;
+    
+    }
+
+    #demo {
+    font-size: 15px;
+    }
+
+
