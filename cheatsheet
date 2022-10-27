@@ -9,3 +9,18 @@ router.get('/', (req, res, next) => {
 controllers will actually store the business logic!
 
 a change!
+
+cd .. revert up levels in a directory
+
+pwd shows the pathway
+
+ls shows the files in the folder
+
+npm start 
+exit
+mkdir 
+touch adds a folder
+git status
+git add
+git commit -a
+git commit -a -m

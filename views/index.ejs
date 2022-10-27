@@ -1,11 +1,326 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  
+</head>
+
+
+
+<body>
+
+<script src="js/websitejs.js"></script>
+
+  <div1>
+    <img src="/uploads/lfc-website-banner copy.jpg" width=100% height="" usemap="#workmap">
+  </div1>
+
+<h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-  </body>
+
+  <div class="sticky"><a href="mailto:paullewis971@gmail.com">Email Me</a>
+</div>
+
+
+  <div>
+
+  <ul style="list-style-type:circle;">
+    <dt><u>Resources</u></dt>
+    <li>
+      <a href="https://www.w3schools.com/html/html_images_imagemap.asp" target="_blank"> W3schools.com website </a>
+    </li>
+    <li>
+      <a href="https://www.remove.bg/upload" target="_blank"> Remove background for images </a>
+    </li>
+    <li>
+      <a href="https://codepen.io/paullewis971" target="_blank"> Codepen my boi </a>
+    </li>
+  </div>
+
+  <div1>
+    <iframe width="420" height="315"
+    src="https://www.youtube.com/embed/cwYTuvEpj7g?autoplay=1&controls=0">
+    </iframe>
+  </div1>
+
+  <div1>
+  <p>
+  <a href="https://www.ft.com" target="_blank"> 
+  <img src="/Users/paullewis/Pictures/Upwork.jpg" id="img1" alt="Picture of me" width="340" height="200" usemap="#workmap">
+    <map name="workmap">
+      <area shape="circle" coords="70,70,25" alt="shirt" href="https://www.beaufortandblake.com/" onclick="myFunction2()" target="_blank">
+    </map>
+  <script>
+    function myFunction2() {
+    alert("You clicked the hidden link!");
+    }
+  </script>
+
+  </a>
+  </p>
+  </div1>
+  <br>
+  <div1>  
+  <p> A picture of me hyperlinking the ft. An area of the map also has a different link.
+  </p>
+  </div1>
+
+  <button id="jsButton" type="button" onclick="myMathsFunction()">Click me</button>
+
+  <div>
+
+<div id="demo">
+
+This will magically change!
+
+</div>
+
+<button id="button1" type="button" onclick="loadDoc()">Click me</button>
+
+</div>
+
+<div1>
+
+<button onclick="document.getElementById('myImage').src='/Users/paullewis/Pictures/Upwork.jpg'">Turn on the light</button>
+
+<img id="myImage" src="/Users/paullewis/Pictures/Upwork.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='/Users/paullewis/Pictures/Jaeger.jpg'">Turn off the light</button>
+
+</div1>
+
+<div1>
+<table id="table1" style="width:50%">
+<caption><b>
+
+<h1> Javascript Keywords
+</h1>
+
+<b></caption>
+<tr style="text-align:center;">
+
+   <th><b> Keyword </b></th>
+   <th><b> Description </b></th>
+</tr>
+
+  <tr>
+  <td style="text-align:center;">var</td>
+  <td style="text-align:left;">Declares a variable</td>
+  </tr>
+
+  <tr>
+  <td style="text-align:center;">let</td>
+  <td style="text-align:left;">Declares a block variable</td>
+  </tr>
+
+ <tr>
+  <td style="text-align:center;">const</td>
+  <td style="text-align:left;">Declares a block constant</td>
+  </tr>
+
+ <tr>
+  <td style="text-align:center;">if</td>
+  <td style="text-align:left;">Marks a block of statements to be executed on a condition</td>
+  </tr>
+
+ <tr>
+  <td style="text-align:center;"> switch </td>
+  <td style="text-align:left;">Marks a block of statements to be executed in different cases</td>
+  </tr>
+
+ <tr>
+  <td style="text-align:center;"> for </td>
+  <td style="text-align:left;">Marks a block of statements to be executed in a loop
+</td>
+  </tr>
+
+ <tr>
+  <td style="text-align:center;"> function </td>
+  <td style="text-align:left;">Declares a function
+</td>
+  </tr>
+
+<tr>
+  <td style="text-align:center;"> return </td>
+  <td style="text-align:left;">Exits a function
+</td>
+  </tr>
+
+<tr>
+  <td style="text-align:center;"> try </td>
+  <td style="text-align:left;">Implements error handling to a block of statements
+
+</td>
+  </tr>
+
+
+</table>
+</div1>
+
+
+
+
+<p> 
+<ol>
+<li>Golf glove</li>
+<li>Water Bottle</li>
+<li>Face cream - Molton Brown</li>
+</ol>
+</p>
+
+
+
+<h3 style="color:purple;"> Src attribute </h3>
+
+<p>
+<ol>
+  <li>Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg".
+</li>
+  <li>Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg".
+
+  </li>
+  </ol>
+
+</p>
+
+<hr>
+
+<h1 style="font-size:22px;"> Adding a </h1> <h3 style=font-size:10px;"> little </h3> <h1 style="font-size:22px;"> bit of spice </h1> 
+
+<p title="Look at this tooltip lol"> This is a paragraph with a tooltip added to it </p>
+
+
+<hr>
+<p>
+
+"Setting the style of an HTML element, can be done with the style attribute.
+You can also set the style within the style section of the header, allowing to define classes and ids.
+
+The HTML style attribute has the following syntax:
+
+"< tagname style="property:value;" the property is a CSS property>
+
+</p>
+
+<!-- All above works, no bugs so far. -->
+
+<hr>
+
+
+<div class="columndiv">
+
+<div class="columnsplit">
+<h1 style="background-color:blue;color:White;"> Go on </h1>
+</div>
+<div class="columnsplit"> 
+<h1>
+This is the right div sir!
+</h1>
+</div>
+
+</div>
+
+
+
+
+<p>
+<button onclick=window.open("https://fantasy.premierleague.com/")>Fantasy Football</button> 
+</p>
+
+
+<p>
+
+<table style="width:50%">
+<caption><b>
+
+<h1 style="font-size:22px;"> Premier League Results
+</h1>
+
+<b></caption>
+<tr>
+
+   <th><b> Football Club </b></th>
+   <th><b> Wins </b></th>
+   <th><b> Losses </b></th>
+  </tr>
+
+  <tr>
+  <td>Liverpool</td>
+  <td>10</td>
+  <td>6</td>
+  </tr>
+</table>
+
+
+<p> List Starting at a specific number </p>
+<ol start="10">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+
+<p> Unordered List </p>
+<ul style="list-style-type:circle;">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+
+<p> List with an indent afterwards </p>
+<dl>
+  <dt>Coffee</dt>
+  <dd>- black hot drink</dd>
+  <dt>Milk</dt>
+  <dd>- white cold drink</dd>
+</dl>
+
+<p> List with the indents having other types, e.g. A, B, C
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol type="a">
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+
+Inline Elements </span>
+
+<p>
+<img src="/Users/paullewis/Documents/Blocklevel.png" alt="Picture of me" width="1100" height="200">
+</P>
+
+<div class="Books">
+  <h2>Bible</h2>
+  <p>The Bible is a great story.</p>
+</div>
+
+<div>My <span class="note">Important</span> Heading</div>
+<h1 id="Paulsheader">ID Header defined in style in at top of doc. - <div> A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page:
+</h1>
+
+</div>
+
+
+
+<p1>
+<div class="footnote"> lorem ipsum dolor sit amet, consectetur adipiscing elit<br>
+<a href="https://www.bbc.co.uk/" title="https://www.bbc.co.uk/" target="_blank" rel="noopener noreferrer" style="box-sizing: border-box; text-decoration-line: none; max-width: 100%; vertical-align: top">
+<div class="ui-wrapper ui-resizable-autohide" style="box-sizing: border-box; display: inline-block; margin: 0px; overflow: hidden; position: relative; width: 140px; height: 40px; top: 0px; left: 0px"><img imgfilesize="1200" src="/Users/paullewis/Pictures/1200px-BBC_logo_white.svg.png" alt="" class="zpimageInsert resizeborderInsert ui-resizable" width="40" style="box-sizing: border-box; border: 0px solid black; position: static; margin: 0px; outline: rgb(68, 220, 231) solid 2px; max-width: 100%; resize: none; height: 40px; width: 140px; vertical-align: middle"></div></a>
+
+</p1>
+</div>
+
+</body>
 </html>
