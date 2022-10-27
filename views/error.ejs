@@ -1,4 +1,22 @@
-<h1>Your boy got an error</h1>
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Advent Pro' rel='stylesheet'>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+
+</head>
+
+<body>
+
+<h1>You've run into a little hiccup!</h1>
+<div class="Books"><%= message %></div>
+<div><%= error.status %></div>
 <pre><%= error.stack %></pre>
+
+</body>
+</html>
