@@ -34,14 +34,16 @@ a {
     button{
     font-size: 13px; 
     background-color:#0E3541;
-    cursor: pointer; text-align:
-    center;
+    cursor: pointer; 
+    text-align: center;
     min-width: 140px;
     color: #fff; 
     display: inline-block;
     text-decoration: none;
     padding: 10px;
     border-radius:6px;
+    margin: 10px;
+     font-family: 'Advent Pro';
     }
 
     h1   {border: none;
@@ -127,6 +129,7 @@ a {
 
     .divFooter {display: flex;
     justify-content:center;
+    text-align: center;
     }
 
     div.sticky {
@@ -156,6 +159,7 @@ a {
 
     #demo {
     font-size: 15px;
+    padding: 15px;
     }
 
 
