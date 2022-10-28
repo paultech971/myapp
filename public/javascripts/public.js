@@ -14,7 +14,7 @@
         document.getElementById("demo").innerHTML = this.responseText;
         }
   	};
-  	xhttp.open("GET", "error.html", true);
+  	xhttp.open("GET", "/error", true);
   	xhttp.send();
 	}
 
@@ -29,9 +29,6 @@
 	output = z + " " + "Redirected to another page using javascript"
 	document.write(output);
 	}
-
-
-
 
 	function myFunctionRevert() 
 
